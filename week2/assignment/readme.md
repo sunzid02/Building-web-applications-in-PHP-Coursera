@@ -1,12 +1,12 @@
-##Assignment: Building a Simple HTML Page
+## Assignment: Building a Simple HTML Page
 In this assignment you will build a simple valid HTML5 page that demonstrates a number of tags.
 
-##Resources
+## Resources
 There are several sources of information so you can do the assignment:
 
 Lectures and materials on HyperText Markup Language from www.wa4e.com
 
-##Specifications
+## Specifications
     Your page will be well-formed HTML5, and indicate that it is in the UTF-8 character set.
 
     <!DOCTYPE html>
