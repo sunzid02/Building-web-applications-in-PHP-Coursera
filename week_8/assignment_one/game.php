@@ -15,7 +15,21 @@ if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
 if ( isset($_POST['logout']) ) {
     unset($_SESSION["username"]);
 
-    header('Location: index.php');
+    header('Location: index.php');Kamryn, si106, Instructor
+Danar, si106, Learner
+Franco, si106, Learner
+Rhia, si106, Learner
+Rivan, si106, Learner
+Argyle, si110, Instructor
+Deniss, si110, Learner
+Jeanna, si110, Learner
+Louie, si110, Learner
+Nika, si110, Learner
+Jean, si206, Instructor
+Dennie, si206, Learner
+Esha, si206, Learner
+Kaan, si206, Learner
+Piper, si206, Learner
     return;
 }
 

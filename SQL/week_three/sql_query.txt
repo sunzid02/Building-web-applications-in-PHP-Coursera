@@ -1,0 +1,41 @@
+## All the data joined up sorted in ascending order by the album title
+
+    select a.title as track_title, c.name as artist_name,b.title as album_title, d.name as genre_name
+    from 
+    Track as a
+
+    join 
+    Album as b
+    on a.album_id = b.id
+
+    join 
+    Artist as c
+    on b.artist_id = c.id
+
+    join Genre as d
+    on a.genre_id = d.id
+
+
+    Order by track_title ASC
+
+
+## All the genre for a particular artist
+
+    select distinct(c.name) as artist_name, d.name as genre_name
+    from 
+    Track as a
+
+    join 
+    Album as b
+    on a.album_id = b.id
+
+    join 
+    Artist as c
+    on b.artist_id = c.id
+
+    join Genre as d
+    on a.genre_id = d.id
+
+    where c.name = 'Artcell'
+
+
